@@ -1,0 +1,21 @@
+@import "./base.css";
+
+.img-container {
+  display: flex;
+  gap: 0 40px;
+  margin-top: 80px;
+}
+
+.img-container figure {
+  flex: 1;
+}
+
+.img-container figure img {
+  border-radius: 10px;
+}
+
+.img-container figcaption {
+  text-align: center;
+  margin-top: 10px;
+  line-height: 1.5;
+}
